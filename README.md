@@ -4,7 +4,7 @@ Munin node monitoring endpoint for RedHat/CentOS or Debian/Ubuntu.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-munin_node/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-munin_node/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-munin_node/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-munin_node)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/munin_node)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/munin_node)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-munin_node/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-munin_node/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-munin_node/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-munin_node)|[![quality](https://img.shields.io/ansible/quality/59034)](https://galaxy.ansible.com/buluma/munin_node)|[![downloads](https://img.shields.io/ansible/role/d/59034)](https://galaxy.ansible.com/buluma/munin_node)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-munin_node.svg)](https://github.com/buluma/ansible-role-munin_node/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -78,8 +78,8 @@ munin_node_plugins: []
 
 # List of munin plugins to install.
 munin_node_install_plugins: []
-  # - src: files/munin/redis_
-  # - remote_src: https://raw.githubusercontent.com/ohitz/phpfpm-multi-munin-plugin/master/phpfpm-multi
+# - src: files/munin/redis_
+# - remote_src: https://raw.githubusercontent.com/ohitz/phpfpm-multi-munin-plugin/master/phpfpm-multi
 
 # Plugin configuration options (the key is the plugin heading, items within will
 # be options for the plugin).
@@ -101,7 +101,7 @@ The following roles are used to prepare a system. You can prepare your system in
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
