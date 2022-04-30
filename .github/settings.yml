@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Munin node monitoring endpoint for RedHat/CentOS or Debian/Ubuntu.
+  homepage: https://buluma.github.io/
+  topics: monitoring, system, munin, ansible, molecule, tox, playbook, hacktoberfest
