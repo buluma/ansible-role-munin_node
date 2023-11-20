@@ -2,7 +2,14 @@
 #
 # Ansible managed
 #
-exclude_list:
-  - ./molecule/default/collections.yml
-  - ./.tox
-  - ./.cache
+  - molecule/default/collections.yml
+  - .tox
+  - .cache
+  - .github
+  - requirements.yml
+
+skip_list:
+  - yaml[truthy]
+
+enable_list:
+  - name[prefix]
