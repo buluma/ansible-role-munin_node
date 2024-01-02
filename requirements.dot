@@ -1,0 +1,11 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "munin_node" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.repo_epel" [fillcolor=green style=filled]
+  }
+  "munin_node" -> "buluma.bootstrap"
+  "munin_node" -> "buluma.repo_epel"
+}
